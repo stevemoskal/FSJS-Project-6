@@ -5,45 +5,45 @@
       "project_name": "FSJS Project 1",
       "description": "Random Quote Generator - A website that generates a random quote from an array.",
       "technologies": [ "HTML", "CSS", "JavaScript" ],
-      "live_link": "stevemoskal.github.io/random-quote-generator",
+      "live_link": "https://stevemoskal.github.io/random-quote-generator",
       "github_link": "https://github.com/stevemoskal/random-quote-generator",
-      "image_urls": [ "/img/project_1_1", "/img/project_1_2", "/img/project_1_3", "/img/project_1_4" ]
+      "image_urls": [ "../static/img/project_1_1.jpg", "../static/img/project_1_2.jpg", "../static/img/project_1_3.jpg", "../static/img/project_1_4.jpg" ]
     },
     {
       "id": "1",
       "project_name": "FSJS Project 2",
       "description": "Pagination - A website that demonstrates the use of pagination buttons.",
       "technologies": [ "HTML", "CSS", "JavaScript" ],
-      "live_link": "stevemoskal.github.io/FSJS-Project-2",
+      "live_link": "https://stevemoskal.github.io/FSJS-Project-2",
       "github_link": "https://github.com/stevemoskal/FSJS-Project-2",
-      "image_urls": [ "/img/project_2_1", "/img/project_2_2", "/img/project_2_3", "/img/project_2_4" ]
+      "image_urls": [ "../static/img/project_2_1.jpg", "../static/img/project_2_2.jpg", "../static/img/project_2_3.jpg", "../static/img/project_2_4.jpg" ]
     },
     {
       "id": "2",
       "project_name": "FSJS Project 3",
       "description": "Interactive Web Form - An interactive web form with error handlers.",
       "technologies": [ "HTML", "CSS", "JavaScript" ],
-      "live_link": "stevemoskal.github.io/FSJS-Project-3",
+      "live_link": "https://stevemoskal.github.io/FSJS-Project-3",
       "github_link": "https://github.com/stevemoskal/FSJS-Project-3",
-      "image_urls": [ "/img/project_3_1", "/img/project_3_2", "/img/project_3_3", "/img/project_3_4" ]
+      "image_urls": [ "../static/img/project_3_1.jpg", "../static/img/project_3_2.jpg", "../static/img/project_3_3.jpg", "../static/img/project_3_4.jpg" ]
     },
     {
       "id": "3",
       "project_name": "FSJS Project 4",
       "description": "OOP Game Show App - Phrase Hunter game app using object-oriented programming.",
       "technologies": [ "HTML", "CSS", "JavaScript" ],
-      "live_link": "stevemoskal.github.io/FSJS-Project-4",
+      "live_link": "https://stevemoskal.github.io/FSJS-Project-4",
       "github_link": "https://github.com/stevemoskal/FSJS-Project-4",
-      "image_urls": [ "/img/project_4_1", "/img/project_4_2", "/img/project_4_3", "/img/project_4_4" ]
+      "image_urls": [ "../static/img/project_4_1.jpg", "../static/img/project_4_2.jpg", "../static/img/project_4_3.jpg", "../static/img/project_4_4.jpg" ]
     },
     {
       "id": "4",
       "project_name": "FSJS Project 5",
       "description": "Public API Requests - A website that uses a public API to populate an array with 12 random employees.",
       "technologies": [ "HTML", "CSS", "JavaScript" ],
-      "live_link": "stevemoskal.github.io/FSJS-Project-5",
+      "live_link": "https://stevemoskal.github.io/FSJS-Project-5",
       "github_link": "https://github.com/stevemoskal/FSJS-Project-5",
-      "image_urls": [ "/img/project_5_1", "/img/project_5_2", "/img/project_5_3", "/img/project_5_4" ]
+      "image_urls": [ "../static/img/project_5_1.jpg", "../static/img/project_5_2.jpg", "../static/img/project_5_3.jpg", "../static/img/project_5_4.jpg" ]
     }
   ]
 }

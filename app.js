@@ -1,13 +1,12 @@
 const express = require('express');
-const { projects } = require('/data.json');
+const { projects } = require('./data.json');
 
 const app = express();
 app.use('/static', express.static('public'));
 app.set('view engine', 'pug');
 
 app.get('/', (req, res) => {
-    // res.locals = data;
-    res.render('index');
+    res.render('index', { projects });
 });
 
 app.get('/about', (req, res) => {
@@ -15,7 +14,11 @@ app.get('/about', (req, res) => {
 });
 
 app.get('/project/:id', (req, res) => {
-    res.render('project');
+    const projectId = req.params.id;
+    const project = projects[projectId];
+    if (project) {
+        res.render('project', { project });
+    }
 });
 
 app.listen(3000, () => {
