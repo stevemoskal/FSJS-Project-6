@@ -1,0 +1,14 @@
+extends layout
+
+block content
+	.portfolio-intro
+		h1= `Server Error`
+		h2= `Error Status Code: ${err.status} - Server Error`
+		p= err.message
+
+		a.btn-link(href='/') Get me out of here!
+
+		
+		if err
+			
+			pre #{err.stack}

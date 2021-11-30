@@ -1,0 +1,12 @@
+extends layout
+
+block content
+	.portfolio-intro
+		h1 404 - Page Not Found
+		p= err.message
+
+		a.btn-link(href='/') Get me out of here!
+
+		if err
+			
+			pre #{err.stack}
