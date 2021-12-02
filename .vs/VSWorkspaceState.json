@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
+    "\\public",
+    "\\public\\css",
     "\\views"
   ],
-  "SelectedNode": "\\app.js",
+  "SelectedNode": "\\views\\layout.pug",
   "PreviewInSolutionExplorer": false
 }
