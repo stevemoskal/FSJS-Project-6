@@ -5,14 +5,17 @@ const app = express();
 app.use('/static', express.static('public'));
 app.set('view engine', 'pug');
 
+// index route
 app.get('/', (req, res) => {
     res.render('index', { projects });
 });
 
+// about route
 app.get('/about', (req, res) => {
     res.render('about');
 });
 
+// project route, based on id passed in url. If if is not existing, send to error handler
 app.get('/project/:id', (req, res, next) => {
     const projectId = req.params.id;
     const project = projects[projectId];
@@ -26,6 +29,7 @@ app.get('/project/:id', (req, res, next) => {
     }
 });
 
+// 404 Error Handler
 app.use((req, res, next) => {
     console.log('404 Handler Called');
     const err = new Error();
@@ -34,7 +38,7 @@ app.use((req, res, next) => {
     next(err);
 });
 
-
+// Global Error Handler
 app.use((err, req, res, next) => {
     if (err) {
         console.log('Global error handler called', err);
@@ -49,7 +53,7 @@ app.use((err, req, res, next) => {
     }
 })
 
-
+// Log confirmation of app running
 app.listen(3000, () => {
     console.log('The application is running on localhost:3000');
 });

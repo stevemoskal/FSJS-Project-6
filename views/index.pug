@@ -3,22 +3,20 @@ extends layout.pug
 block content
 
   article.portfolio-intro
-
-    //- Replace with your own heading like 'My Portfolio', or 'Hey, Potential Employers', or 'Let's make the web great together!' 
+ 
     h1 Stephan Moskal's Portfolio
 
-    //- Replace with a description for your portfolio, what this project is, it's purpose, what it's supposed to accomplish, etc. 
     p This portfolio was created for Project 6 in the Full Stack JavaScipt course presented by TeamTreehouse.com. Please click on a project to learn more.
 
 
   article.portfolio-project-thumbs
     .projects-box.box.grid
 
-      //- Use the Pug `each` iterator to loop over the projects in your data file  
-      
+      // loop over each of the projects and create links on the main page
+
       each project in projects
             .cell
                     a(href=`/project/${project.id}`)
-                            img.thumbnail(src=`${project.image_urls[0]}`, alt=`${project.project_name}`)
+                            img.thumbnail.project-thumb(src=`${project.image_urls[0]}`, alt=`${project.project_name}`)
                             h5= project.project_name
 
