@@ -7,7 +7,7 @@
       "technologies": [ "HTML", "CSS", "JavaScript" ],
       "live_link": "https://stevemoskal.github.io/random-quote-generator",
       "github_link": "https://github.com/stevemoskal/random-quote-generator",
-      "image_urls": [ "../static/img/project_1_1.jpg", "../static/img/project_1_2.jpg", "../static/img/project_1_3.jpg", "../static/img/project_1_4.jpg" ]
+      "image_urls": [ "../static/img/project_1_1.JPG", "../static/img/project_1_2.JPG", "../static/img/project_1_3.JPG", "../static/img/project_1_4.JPG" ]
     },
     {
       "id": "1",
@@ -16,7 +16,7 @@
       "technologies": [ "HTML", "CSS", "JavaScript" ],
       "live_link": "https://stevemoskal.github.io/FSJS-Project-2",
       "github_link": "https://github.com/stevemoskal/FSJS-Project-2",
-      "image_urls": [ "../static/img/project_2_1.jpg", "../static/img/project_2_2.jpg", "../static/img/project_2_3.jpg", "../static/img/project_2_4.jpg" ]
+      "image_urls": [ "../static/img/project_2_1.JPG", "../static/img/project_2_2.JPG", "../static/img/project_2_3.JPG", "../static/img/project_2_4.JPG" ]
     },
     {
       "id": "2",
@@ -25,7 +25,7 @@
       "technologies": [ "HTML", "CSS", "JavaScript" ],
       "live_link": "https://stevemoskal.github.io/FSJS-Project-3",
       "github_link": "https://github.com/stevemoskal/FSJS-Project-3",
-      "image_urls": [ "../static/img/project_3_1.jpg", "../static/img/project_3_2.jpg", "../static/img/project_3_3.jpg", "../static/img/project_3_4.jpg" ]
+      "image_urls": [ "../static/img/project_3_1.JPG", "../static/img/project_3_2.JPG", "../static/img/project_3_3.JPG", "../static/img/project_3_4.JPG" ]
     },
     {
       "id": "3",
@@ -34,7 +34,7 @@
       "technologies": [ "HTML", "CSS", "JavaScript" ],
       "live_link": "https://stevemoskal.github.io/FSJS-Project-4",
       "github_link": "https://github.com/stevemoskal/FSJS-Project-4",
-      "image_urls": [ "../static/img/project_4_1.jpg", "../static/img/project_4_2.jpg", "../static/img/project_4_3.jpg", "../static/img/project_4_4.jpg" ]
+      "image_urls": [ "../static/img/project_4_1.JPG", "../static/img/project_4_2.JPG", "../static/img/project_4_3.JPG", "../static/img/project_4_4.JPG" ]
     },
     {
       "id": "4",
@@ -43,7 +43,7 @@
       "technologies": [ "HTML", "CSS", "JavaScript" ],
       "live_link": "https://stevemoskal.github.io/FSJS-Project-5",
       "github_link": "https://github.com/stevemoskal/FSJS-Project-5",
-      "image_urls": [ "../static/img/project_5_1.jpg", "../static/img/project_5_2.jpg", "../static/img/project_5_3.jpg", "../static/img/project_5_4.jpg" ]
+      "image_urls": [ "../static/img/project_5_1.JPG", "../static/img/project_5_2.JPG", "../static/img/project_5_3.JPG", "../static/img/project_5_4.JPG" ]
     }
   ]
 }
