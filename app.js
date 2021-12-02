@@ -56,5 +56,5 @@ app.use((err, req, res, next) => {
 
 // Log confirmation of app running
 app.listen(port, () => {
-    console.log('The application is running on localhost:3000');
+    console.log(`The application is running on localhost:${port}`);
 });
